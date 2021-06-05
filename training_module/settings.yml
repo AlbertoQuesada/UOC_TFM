@@ -1,0 +1,15 @@
+filename: '..\\..\\data\\data.csv' # Data folder directory
+
+column_names:
+  - timestamp
+  - temperature
+  - pressure
+  - humidity
+  - pm_2_5
+  - pm_10
+
+training_ahead: 5 # Time periods to predict
+
+training_algorithm: 'ADAM' # ADAM || GD || QNM
+
+training_loss_function: 'RMSE' # RMSE || NSR 
